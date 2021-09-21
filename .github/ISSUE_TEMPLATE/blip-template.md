@@ -20,22 +20,23 @@ created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
 requires (*optional): <BLIP number(s)>
 replaces (*optional): <BLIP number(s)>
 ---
-This is the suggested template for new BLIPs.
+ 
+  <h1>This is the suggested template for new BLIPs.</h1>
 
 Note that BLIP number will be assigned by an editor. When opening a pull request to submit your BLIP, please use an abbreviated title in the filename, blip-draft_title_abbrev.md.
 
 The title should be 44 characters or less. It should not repeat the BLIP number in title, irrespective of the category.
 
-Abstract
+<h2>Abstract</h2>
 Abstract is a multi-sentence (short paragraph) technical summary. This should be a very terse and human-readable version of the specification section. Someone should be able to read only the abstract to get the gist of what this specification does.
 
-Motivation
+<h2>Motivation</h2>
 The motivation section should describe the "why" of this BLIP. What problem does it solve? Why should someone want to implement this standard? What benefit does it provide to the Baseline Protocol ecosystem? What use cases does this BLIP address?
 
-Specification
+<h2>Specification</h2>
 The technical specification should describe the syntax and semantics of any new feature. The specification should be detailed enough to allow competing, interoperable implementations for any Baseline Protocol compliant system.
 
-Rationale
+<h2>Rationale</h2>
 The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages.
 
 Backwards Compatibility
@@ -47,10 +48,10 @@ Test cases for an implementation are mandatory for BLIPs that are affecting cons
 Reference Implementation
 An optional section that contains a reference/example implementation that people can use to assist in understanding or implementing this specification. If the implementation is too large to reasonably be included inline, then consider adding it as one or more files in ../assets/blip-####/.
 
-Security Considerations
+<h2>Security Considerations</h2>
 All BLIPs must contain a section that discusses the security implications/considerations relevant to the proposed change. Include information that might be important for security discussions, surfaces risks and can be used throughout the life cycle of the proposal. E.g. include security-relevant design decisions, concerns, important discussions, implementation-specific guidance and pitfalls, an outline of threats and risks and how they are being addressed. BLIP submissions missing the "Security Considerations" section will be rejected. A BLIP cannot proceed to status "Final" without a Security Considerations discussion deemed sufficient by the reviewers.
 
-Copyright
+<h2>Copyright</h2>
 Copyright and related rights waived via CC0-Universal.
 
 (This template adapted from the EIP template at https://github.com/ethereum/EIPs/
